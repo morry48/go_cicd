@@ -4,9 +4,9 @@ services:
   app:
     build:
       context: .
-      dockerfile: ./app/Dockerfile
+      dockerfile: ./go/Dockerfile
     ports:
       - "3000:8080"
     volumes:
-      - ./app/src/:/go/src
+      - ./go/src/:/go/src
     tty: true
