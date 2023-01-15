@@ -16,5 +16,5 @@ func TestPingRouter(t *testing.T) {
 
 	assert.Equal(t, 200, w.Code)
 	// ...
-	assert.Equal(t, w.Body.String(), "{\"msg\":\"pog\"}")
+	assert.Equal(t, w.Body.String(), "{\"msg\":\"pong\"}")
 }
