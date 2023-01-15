@@ -28,5 +28,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: go test
         run: |
-#          cd app/src/
           go test -v
